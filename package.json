@@ -1,0 +1,11 @@
+{
+  "name": "octobass",
+  "version": "0.0.1",
+  "description": "A dependency-based execution library",
+  "main": "bin/octobass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kary Foundation, Inc.",
+  "license": "MPL-2.0"
+}
