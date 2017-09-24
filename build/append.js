@@ -20,9 +20,9 @@
 //
 
     const appendingSourceCode = [
-        "if ( process.cwd && __dirname && module.exports ) {",
+        "if (process.cwd && __dirname && module.exports) {",
         "   module.exports = Octobass;",
-        "} else if ( window ) {",
+        "} else if (window) {",
         "   window.Octobass = Octobass;",
         "}",
     ].join('\n')
