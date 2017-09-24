@@ -1,11 +1,12 @@
 {
-  "name": "octobass",
-  "version": "0.0.1",
-  "description": "A dependency-based execution library",
-  "main": "bin/octobass.js",
-  "scripts": {
-    "build": "tsc; node ./build/append.js"
-  },
-  "author": "Kary Foundation, Inc.",
-  "license": "MPL-2.0"
+    "name": "octobass",
+    "version": "0.0.1",
+    "description": "A semi-actor dependency-based execution library",
+    "main": "bin/octobass.js",
+    "scripts": {
+        "build": "tsc; node ./build/append.js",
+        "test": "node ./test/test.js"
+    },
+    "author": "Kary Foundation, Inc.",
+    "license": "MPL-2.0"
 }
