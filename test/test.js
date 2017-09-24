@@ -23,15 +23,15 @@
             info: { id: "a", name: "name" },
             dependencies: new Set( ),
             formula: 1
-        }, {
+        },{
             info: { id: "b", name: "name" },
             dependencies: new Set( ),
             formula: 3
-        }, {
+        },{
             info: { id: "c", name: "name" },
             dependencies: new Set( ),
             formula: 5
-        }, {
+        },{
             info: { id: "x", name: "name" },
             dependencies: new Set(['a', 'b']),
             formula: null
