@@ -46,13 +46,14 @@ namespace Octobass {
                                            func: IExecutionFunction<T, K>) {
 
             // check if the dependencies are okay
-            if ( !isComputable( inputData, computedData ) ) { return countDownCounter }
+            if ( !isComputable( inputData, computedData ) )
+                { return countDownCounter }
 
             // lets compute
             computedData[ inputData.info.id ] =
                 func( computedData, inputData )
 
-            return --countDownCounter
+            return countDownCounter - 1
         }
 
     //
